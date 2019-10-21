@@ -2,6 +2,7 @@ import * as React from 'react';
 import { connect } from 'dva';
 import { Dispatch, AnyAction } from 'redux';
 import { ConnectProps, ConnectState } from '@/models/connect';
+import "./index.less";
 
 export interface IAppProps extends ConnectProps {
     dispatch: Dispatch<AnyAction>;
